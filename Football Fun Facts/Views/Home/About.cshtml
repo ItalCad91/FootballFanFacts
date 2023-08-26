@@ -1,0 +1,61 @@
+﻿@{
+    ViewData["Title"] = "About Soccer Fun Facts";
+}
+
+<div class="about-page">
+    <h1 class="title">@ViewData["Title"]</h1>
+
+    <section class="mission">
+        <h2>Our Mission</h2>
+        <p>At Soccer Fun Facts, our mission is to bring the joy of soccer to fans all around the world by providing a delightful collection of interesting, surprising, and quirky facts about the beautiful game. Whether you're a die-hard soccer aficionado or just getting acquainted with the sport, our aim is to make your soccer experience even more enjoyable.</p>
+    </section>
+
+    <section class="team">
+        <h2>Our Team</h2>
+        <p>We are a passionate group of soccer enthusiasts who share a common goal: to share our love for soccer through fun and engaging facts. Our team is composed of individuals with diverse backgrounds and experiences, all united by the shared excitement that soccer brings to our lives.</p>
+    </section>
+
+    <section class="content">
+        <h2>Quality Content</h2>
+        <p>At Soccer Fun Facts, we're committed to delivering accurate and entertaining content. Our team of experts meticulously researches each fact to ensure its accuracy, and we take pride in presenting these facts in an enjoyable and informative manner. We believe that learning about soccer should be just as enjoyable as watching the game itself!</p>
+    </section>
+
+    <section class="community">
+        <h2>Join Our Community</h2>
+        <p>We invite you to be a part of our growing soccer-loving community! Connect with fellow fans, share your thoughts and insights, and even contribute your own fun facts. Together, we can celebrate the passion and camaraderie that soccer brings to people all over the world.</p>
+        <a asp-action="Index" class="cta-button aBout">Return to Home</a>
+    </section>
+</div>
+
+<style>
+    h2
+    {
+        color:dodgerblue;
+        font-family: 'Yu Gothic';
+        font-size:20px;
+    }
+
+    p
+    {
+        font-family: 'Yu Gothic';
+        font-size: 20px;
+    }
+
+    .aBout 
+    {
+        color: cornflowerblue;
+        font-family: 'Yu Gothic';
+        margin-top: 20px;
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .title
+    {
+        color: dodgerblue;
+        font-family: 'Yu Gothic';
+        margin:15px;
+    }
+</style>
